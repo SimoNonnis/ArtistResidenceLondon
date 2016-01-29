@@ -1,0 +1,127 @@
+
+/* ==========================================================================
+   London
+   ========================================================================== */
+
+
+
+
+/* London Style
+   ========================================================================== */
+
+
+.page-title,
+.main-promo-article__title,
+.view-gallery__title {
+  @include font-size(3.2); 
+  font-family: 'p22-underground', Arial, sans-serif;
+  font-weight:900; 
+  font-style:normal;
+  letter-spacing: 2px;
+} 
+
+.main-promo-article__title {
+  @include font-size(2.0);  
+}
+
+.page-title--main-banner { 
+  @include font-size(3.5);
+  font-family: 'p22-underground', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+@include min-screen(19.0625em) {
+  .page-title--main-banner {
+    @include font-size(4.5); 
+  }
+}
+
+@include min-screen(23.75em) {
+  .page-title--main-banner {
+    @include font-size(5.4); 
+  }
+}
+
+
+.external-container { border-top-color: $dark-orange; }
+body { background-image: url('../images/ar-london-background.gif'); }
+
+.ul-top-nav a {
+	&:hover,
+	&:focus { color: $dark-orange; }
+}
+
+.ul-top-nav li:last-child { 
+  background-image: url('../images/london-pattern.gif'); 
+}
+
+.m-book-online { background-color: $dark-orange; }
+.m-book-online-link {
+  color: $dark-orange;
+  background-color: #F8F7EF;
+}
+
+.ul-top-nav li:last-child a { 
+  color: $dark-orange;
+  background-color: #F8F7EF;
+}
+
+a:hover,
+a:focus,
+a:active,
+.current_page_item a { color: $dark-orange; }
+
+h1, .h1 { color: $dark-orange; }
+
+
+.square-text__type { color: $dark-orange; }
+
+
+.btn-skin-link-color,
+.g-map__btn { 
+  color: $dark-orange;
+  border-color: $dark-orange;
+
+}
+
+.btn-skin-link-color:active,
+.btn-skin-link-color:focus,
+.btn-skin-link-color:hover,
+.g-map__btn:active,
+.g-map__btn:focus,
+.g-map__btn:hover { 
+  color: $bgcolor;
+  background-color: $dark-orange; 
+}
+
+.view-gallery {
+  color: $dark-orange;
+  border-color: $dark-orange;
+}
+
+.media-obj-body__title {
+  color: $html-text-color;
+}
+
+.main-navigation .current-menu-item.menu-item:last-child a {
+  color: $bgcolor;
+  background-color: $dark-orange; 
+}
+
+@include min-screen(64em) {
+  .cell--promo-bkg {
+    background: url('../images/lamp.png') no-repeat 88% 80%;  
+  }
+}
+
+
+.main-promo-article { border-color: $dark-orange; }
+.main-promo-article__title { color: $dark-orange; }
+
+@include min-screen(81.25em) {
+  .ul-top-nav a {
+    @include font-size(1.4); 
+  }
+}
+
